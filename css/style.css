@@ -2,10 +2,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
+  /* ! per lo scroll */
   scroll-behavior: smooth;
 }
 
 html {
+  /* ! per nascondere le altre sezioni */
   overflow-y: hidden;
 }
 
@@ -61,6 +64,8 @@ h2 {
   left: 50%;
 }
 
+/* Menu */
+
 #main-menu {
   z-index: 1;
   position: fixed;
@@ -74,22 +79,26 @@ h2 {
 }
 
 #main-menu a {
+  display: inline-block;
   background-color: #fff;
-  padding: 10px 15px;
+  text-decoration: none;
   margin: 10px 0;
   border-radius: 50%;
-  text-decoration: none;
   color: #000;
   font-weight: bold;
   opacity: 0.8;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
-  display: inline-block;
+
+  padding: 10px 15px;
+  /* width: 40px;
+  height: 40px;
+  line-height: 40px; */
 }
 
 #main-menu a:hover {
   color: #fff;
   background-color: cadetblue;
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 
 #main-menu a:active {
