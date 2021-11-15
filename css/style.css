@@ -90,6 +90,8 @@ h2 {
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 
   padding: 10px 15px;
+
+  /** alternativa */
   /* width: 40px;
   height: 40px;
   line-height: 40px; */
